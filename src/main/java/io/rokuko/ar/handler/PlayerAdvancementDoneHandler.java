@@ -14,7 +14,7 @@ import org.bukkit.event.player.PlayerMoveEvent;
 public class PlayerAdvancementDoneHandler implements Listener {
 
     @EventHandler
-    public void onPlayerAdvancementDoneHandler(PlayerAdvancementDoneEvent event){
+    public void onPlayerAdvancementDone(PlayerAdvancementDoneEvent event){
         ConfigurationWrapper config = Entry.INSTANCE.getWrapperConfig();
         String key = event.getAdvancement().getKey().toString();
         Player player = event.getPlayer();
