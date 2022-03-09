@@ -1,0 +1,12 @@
+settings:
+  debug: true
+  initial-max-health: 2
+  increase-health: 1
+  finish-advancement-auto-heal: true
+
+advancements:
+  - '*'
+
+messages:
+  player-first-join: "&7欢迎进入服务器, 该服务器使用了 &8[ &cAdvancement&3Reward &8] &7插件\n当前的最大血量设置成: &c%health%"
+  player-finish-advancement: "&7恭喜你完成成就, 当前最大血量: &7%beforeHealth%❤ &e+ %increaseHealth%❤ &7= &c%currentHealth%❤"

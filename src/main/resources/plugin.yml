@@ -1,0 +1,8 @@
+main: io.rokuko.ar.Entry
+name: AdvancementReward
+author: rokuko
+version: 1.0-SNAPSHOT
+commands:
+  ar:
+    usage: /ar
+    permission: ar.admin
