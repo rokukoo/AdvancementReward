@@ -26,7 +26,3 @@ test {
 tasks.withType(JavaCompile){
     options.encoding = "UTF-8"
 }
-
-tasks.withType(Jar){
-    destinationDir file("C:\\Users\\ASUS\\Desktop\\Server\\1.16.5-paper\\plugins")
-}
